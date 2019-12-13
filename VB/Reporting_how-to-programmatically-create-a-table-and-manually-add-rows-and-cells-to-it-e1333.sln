@@ -1,6 +1,9 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Controls_XRTable", "Controls_XRTable.vbproj", "{5522F0D1-2F7A-4B84-A14C-5899648D8EBC}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Controls_XRTable", "Reporting_how-to-programmatically-create-a-table-and-manually-add-rows-and-cells-to-it-e1333\Controls_XRTable.vbproj", "{5522F0D1-2F7A-4B84-A14C-5899648D8EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +15,11 @@ Global
 		{5522F0D1-2F7A-4B84-A14C-5899648D8EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5522F0D1-2F7A-4B84-A14C-5899648D8EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5522F0D1-2F7A-4B84-A14C-5899648D8EBC}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+		EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {584C298A-7349-44BC-B5A6-CDB048E931DC}
 	EndGlobalSection
 EndGlobal
