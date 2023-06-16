@@ -1,4 +1,4 @@
-namespace Controls_XRTable {
+namespace XRTableTest {
     partial class XtraReport1 {
         /// <summary>
         /// Required designer variable.

@@ -3,7 +3,7 @@ Imports System.Drawing.Printing
 Imports DevExpress.XtraReports.UI
 ' ...
 
-Namespace Controls_XRTable
+Namespace XRTableTest
     Partial Public Class XtraReport1
         Inherits XtraReport
 

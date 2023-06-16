@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Controls_XRTable {
+namespace XRTableTest {
     static class Program {
         /// <summary>
         /// The main entry point for the application.

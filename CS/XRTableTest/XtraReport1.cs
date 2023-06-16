@@ -3,7 +3,7 @@ using System.Drawing.Printing;
 using DevExpress.XtraReports.UI;
 // ...
 
-namespace Controls_XRTable {
+namespace XRTableTest {
     public partial class XtraReport1 : XtraReport {
         public XtraReport1() {
             InitializeComponent();

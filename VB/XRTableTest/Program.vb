@@ -2,7 +2,7 @@
 Imports System.Collections.Generic
 Imports System.Windows.Forms
 
-Namespace Controls_XRTable
+Namespace XRTableTest
     Friend NotInheritable Class Program
 
         Private Sub New()

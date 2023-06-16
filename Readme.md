@@ -1,19 +1,17 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128602611/2019.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1333)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Form1.cs](./CS/Reporting_how-to-programmatically-create-a-table-and-manually-add-rows-and-cells-to-it-e1333/Form1.cs) (VB: [Form1.vb](./VB/Reporting_how-to-programmatically-create-a-table-and-manually-add-rows-and-cells-to-it-e1333/Form1.vb))
-* [XtraReport1.cs](./CS/Reporting_how-to-programmatically-create-a-table-and-manually-add-rows-and-cells-to-it-e1333/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/Reporting_how-to-programmatically-create-a-table-and-manually-add-rows-and-cells-to-it-e1333/XtraReport1.vb))
-<!-- default file list end -->
-# How to programmatically create a table and manually add rows and cells to it
+# Reporting for WinForms - Create a Table in Code
 
 
-<p>The following example demonstrates how to create an <strong>XRTable</strong> class with a specific number of rows and cells. A row is added to the collection returned by the <strong>XRTable.Rows</strong> property. Cells are added to the collection returned by the <strong>XRTableRow.Cells</strong> property.</p><p>To learn about an iterative runtime table creation approach, see <a href="https://www.devexpress.com/Support/Center/p/E1356">E1356</a>.</p>
+This is a simple example that creates a table in code. The table is the [XRTable](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRTable) control with several rows and cells added in code.
 
-<br/>
+## Files to Review
 
+* [Form1.cs](CS/XRTableTest/Form1.cs) (VB: [Form1.vb](VB/XRTableTest/Form1.vb))
+* [XtraReport1.cs](CS/XRTableTest/XtraReport1.cs) (VB: [XtraReport1.vb](VB/XRTableTest/XtraReport1.vb))
 
+## Documentation
+
+- [Use Tables](https://docs.devexpress.com/XtraReports/9741/detailed-guide-to-devexpress-reporting/use-report-controls/use-tables)
+
+## More Examples
+
+- [Reporting for WinForms - Create a Data-Bound Table at Runtime](https://github.com/DevExpress-Examples/reporting-create-table-at-runtime)

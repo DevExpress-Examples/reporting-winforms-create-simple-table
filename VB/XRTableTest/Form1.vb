@@ -3,7 +3,7 @@ Imports System.Windows.Forms
 Imports DevExpress.XtraReports.UI
 ' ...
 
-Namespace Controls_XRTable
+Namespace XRTableTest
     Partial Public Class Form1
         Inherits Form
 

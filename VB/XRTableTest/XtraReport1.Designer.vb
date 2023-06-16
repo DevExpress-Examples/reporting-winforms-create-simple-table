@@ -1,4 +1,4 @@
-﻿Namespace Controls_XRTable
+﻿Namespace XRTableTest
     Partial Public Class XtraReport1
         ''' <summary>
         ''' Required designer variable.
