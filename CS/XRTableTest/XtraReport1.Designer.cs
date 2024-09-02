@@ -55,7 +55,7 @@ namespace XRTableTest {
             this.PageHeader,
             this.PageFooter});
             this.Version = "8.3";
-            this.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.XtraReport1_BeforePrint);
+            this.BeforePrint += new DevExpress.XtraReports.UI.BeforePrintEventHandler(this.XtraReport1_BeforePrint);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

@@ -11,7 +11,7 @@ Namespace XRTableTest
             InitializeComponent()
         End Sub
 
-        Private Sub XtraReport1_BeforePrint(ByVal sender As Object, ByVal e As PrintEventArgs) Handles Me.BeforePrint
+        Private Sub XtraReport1_BeforePrint(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles Me.BeforePrint
             Me.Detail.Controls.Add(CreateXRTable())
         End Sub
 

@@ -9,7 +9,7 @@ namespace XRTableTest {
             InitializeComponent();
         }
 
-        private void XtraReport1_BeforePrint(object sender, PrintEventArgs e) {
+        private void XtraReport1_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e) {
             this.Detail.Controls.Add(CreateXRTable());
         }
 
